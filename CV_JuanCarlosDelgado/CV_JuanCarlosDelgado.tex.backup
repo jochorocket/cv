@@ -1,0 +1,103 @@
+%% start of file `template_en.tex'.
+%% Copyright 2007 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[11pt,a4paper]{moderncv}
+
+% moderncv themes
+\moderncvtheme[grey]{casual}                 % optional argument are 'blue' (default), 'orange', 'red', 'green', 'grey' and 'roman' (for roman fonts, instead of sans serif fonts)
+%\moderncvtheme[green]{classic}                % idem
+
+% character encoding
+\usepackage[utf8]{inputenc}                   % replace by the encoding you are using
+
+% adjust the page margins01/2011--
+\usepackage[scale=0.8]{geometry}
+\recomputelengths                             % required when changes are made to page layout lengths
+
+% personal data
+\firstname{Juan Carlos}
+\familyname{Delgado Chávez}
+\title{Juan Carlos Delgado Chávez - Currículum Vitae}               	% optional, remove the line if not wanted
+\address{Calle Percy Gibson 103, Urb. Ferroviarios, Arequipa}{}    	% optional, remove the line if not wanted
+\mobile{mobile (+51-959119195)}                    			% optional, remove the line if not wanted
+\phone{phone (+51-54-241521)}                      			% optional, remove the line if not wanted
+\email{email (jcdelgado3961@hotmail.com)}                     % optional, remove the line if not wanted
+\photo[64pt]{juank}     % '64pt' is the height the picture must be resized to and 'picture' is the name of the picture file; optional, remove the line if not wanted
+
+%\nopagenumbers{}                             % uncomment to suppress automatic page numbering for CVs longer than one page
+
+
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+\maketitle
+
+\section{Educación}
+\cventry{1980--1984}{Universitaria}{Universidad Católica Santa María}{Arequipa}{\textit{Bachiller}}{Ciencias Contables e Informáticas}  % aun en curso
+\cventry{1980}{Superior}{CENECAPE de Contabilidad Ignacio Álvarez Thomas}{Arequipa}{\textit{Técnico}}{Contabilidad}
+\cventry{1979}{Servicio Militar}{Fuerza Aérea del Perú}{Base Aérea de La Joya}{\textit{Licenciado}}{Ayudante de Mantenimiento de Aviones}  % aun en curso
+\cventry{1968--1978}{Primaria y Secundaria}{Colegio Nuestra Señora del Pilar}{Arequipa}{\textit{Graduado}}{}  % 
+
+
+\section{Idiomas}
+\cvlanguage{Español}{Idioma Nativo}{}
+\cvlanguage{Inglés}{Intermedio}{}
+%\cvlanguage{Portuguese}{Advance}{Centro Cultural Peruano Brasilero}
+
+
+\closesection{}                   % needed to renewcommands
+\renewcommand{\listitemsymbol}{-} % change the symbol for lists
+
+
+
+\section{Experiencia Laboral}
+\cvline{10/1990--hasta la fecha}{\textbf{Cía. de Seguridad Prosegur S.A.}}
+\cvline{}{\textit{Coordinador Administrativo}}
+
+\cvline{06/1990--09/1990}{\textbf{Cía. Servicios Apoyo Integral}}
+\cvline{}{\textit{Recontador}}
+
+\cvline{08/1985--05/1990}{\textbf{Banco de los Andes - Sucursal Juliaca (Grupo Continental)}}
+\cvline{}{\textit{Recibidor/Pagador}}
+\cvline{}{\textit{Auxiliar Caja Especial}}
+\cvline{}{\textit{Auxiliar Descuentos y Letras}}
+\cvline{}{\textit{Auxiliar Varios Ahorros}}
+\cvline{}{\textit{Auxiliar Letras Cobranza}}
+\cvline{}{\textit{Auxiliar Cuentas Contables}}
+\cvline{}{\textit{Asistente Jefe de Operaciones}}
+
+\cvline{07/1983--06/1985}{\textbf{SERVICON Servicios y Construcciones S.A.}}
+\cvline{}{\textit{Auxiliar de Contabilidad}}
+
+\cvline{06/1980--06/1983}{\textbf{Cía. de Servicios y Asesoramientos Profesionales}}
+\cvline{}{\textit{Auxiliar de Contabilidad}}
+
+
+\section{Cursos y Seminarios}
+\cvline{}{\textit{Teneduría de Libros}}
+
+\cvline{}{\textit{Análisis y Dinámica del Plan Contable General y su Aplicación en Libros de Contabilidad}}
+
+\cvline{}{\textit{Aplicación Práctica de Cuentas del Plan Contable General Revisado por la CONASEV en Empresas Industriales y Comerciales}}
+
+\cvline{}{\textit{Jornadas Tributario Contables} Estudio Caballero Bustamante}
+
+\cvline{}{\textit{Ajuste de Estados Financieros por Efectos de Inflación}}
+
+%\section{Publications}
+%\cvlistitem{Clustering utilizando SL-SOM y un índice de validación basado en la densidad Inter-Cluster e Intra-Cluster, 
+%            Jornadas Peruanas de Computación 2011(JPC 2011)}
+
+%\cvlistitem{A GH-SOM Optimization with SOM Labelling and Dunn Index, 11th International Conference in
+%            Hibrid Intelligent Systems 2011}
+
+\end{document}
+
+
+%% end of file `template_en.tex'.

@@ -1,0 +1,148 @@
+\documentclass[11pt,a4paper]{moderncv}
+
+% moderncv styles
+%\moderncvstyle{casual}       % optional argument are 'nocolor' (black & white cv) and 'roman' (for roman fonts, instead of sans serif fonts)
+
+% character encoding
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern} 
+\usepackage{graphicx}
+\usepackage{savesym}
+\savesymbol{fax}
+\usepackage{marvosym}
+\restoresymbol{MARV}{fax}
+
+\moderncvtheme[blue]{classic}    
+%\moderncvtheme[grey]{classic}    
+
+% adjust the page margins
+\usepackage[scale=0.8]{geometry}
+\recomputelengths                             % required when changes are made to page layout lengths
+
+% personal data (the given example is exhaustive; just give what you want)
+\firstname{\huge José Carlos}
+\familyname{\huge Delgado Ramos}
+%\title{Ingeniero InformÃ¡tico}
+\address{103 Percy Gibson St., Urb. Ferroviarios}{}  % for classic style
+%\address{12 somestreet, 3456 somecity} % for casual style
+\mobile{+51-959791270}
+\phone{+51-54-241521}
+\email{jcdelgadoramos@outlook.com}
+\extrainfo{Arequipa, Perú}
+\photo[64pt]{fotografia.png} % also optional, and the optional argument is the height the picture must be resized to
+%\quote{Any intelligent fool can make things bigger, more complex, and more violent. It takes a touch of genius -- and a lot of courage -- to move in the opposite direction.}% also optional
+
+%\renewcommand{\listsymbol}{{\fontencoding{U}\fontfamily{ding}\selectfont\tiny\symbol{'102}}} % define another symbol to be used in front of the list items
+
+% the ConTeXt symbol
+\def\ConTeXt{%
+  C%
+  \kern-.0333emo%
+  \kern-.0333emn%
+  \kern-.0667em\TeX%
+  \kern-.0333emt} 
+  
+% slanted small caps (only with roman family; the sans serif font doesn't exists :-()
+%\usepackage{slantsc}
+%\DeclareFontFamily{T1}{myfont}{}
+%\DeclareFontShape{T1}{myfont}{m}{scsl}{ <-> cork-lmssqbo8}{}
+%\usefont{T1}{myfont}{m}{scsl}Testing the font
+
+% command and color used in this document, independently from moderncv 
+\definecolor{see}{rgb}{0.5,0.5,0.5}% for web links
+\newcommand{\up}[1]{\ensuremath{^\textrm{\scriptsize#1}}}% for text subscripts
+
+\AfterPreamble{\hypersetup{
+  pdfauthor={José Carlos Delgado Ramos},
+  pdftitle={Curriculum Vitae - José Carlos Delgado Ramos},
+  pdfsubject={Curriculum Vitae},
+  urlcolor=blue,
+}}
+
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+\maketitle
+%\makequote
+
+\section{Education}
+\cventry{2007--2014}{Computer Science BSc}{Universidad Católica San Pablo}{Arequipa, Perú}{}{}  % finalizado
+%\cventry{1999--2006}{Escolar}{Colegio Nuestra Señora del Pilar}{Arequipa, Perú}{\textit{Completa}}{}  % 
+
+%\section{Experiencia Profesional}
+%\cventry{2006}{Inserte trabajo interesante aquÃ­ :D}{Inserte empresa interesante aquÃ­ :D}{Inserte actividad de la empresa aquÃ­ :D}{}{}.\hfill{\itshape\color{see}\footnotesize{}Sin mantenimiento}
+%\cventry{2001-2006}{Camarero}{Restaurante El Infierno (Hotel Infierno)}{}{}{Compatibilizado con estudios de IngenierÃ­a TÃ©cnica.}
+
+%\section{Idiomas}
+%\cvlanguage{Español}{Idioma Nativo}{}
+%\cvlanguage{Inglés}{Fluido}{First Certificate in English - Cambridge University, UK}
+%\cvlanguage{Portugués}{Intermedio}{Centro Cultural Peruano Brasilero - Arequipa}
+
+\section{Experience}
+%\cventry{2007}{Beca de formaciÃ³n}{Ãrea de Soporte y Comunicaciones}{Servicio de InformÃ¡tica, Universidad de Springfield}{Disfrutada desde 15/11/2006 hasta 14/08/2007}{Conocimiento de la estructura organizativa y de trabajo en la USP. Mantenimiento hardware y software de personal P.A.S. de la Universidad. Mantenimiento de lÃ­neas de comunicaciones. Soporte tÃ©cnico telefÃ³nico a personal P.A.S. Soporte tÃ©cnico informÃ¡tico a los alumnos. ImpresiÃ³n de gran formato.}
+%\cventry{2006}{Beca de formaciÃ³n}{Ãrea de Soporte y Comunicaciones}{Servicio de InformÃ¡tica, Universidad de Springfield}{Disfrutada desde 09/05 hasta 31/07/2006}{Encargado de aulas de informÃ¡tica de edificio principal, mantenimiento hardware y soporte tÃ©cnico a alumnos.}
+%\cventry{2006}{Alumno Colaborador}{Departamento de FÃ­sica Aplicada}{Universidad de Springfield}{Curso 2006/2007}{Mantenimiento del \normalsize{\bfseries Aula Virtual} diseÃ±ada como PFC del alumno. AdaptaciÃ³n, preparaciÃ³n y correcciÃ³n de errores de la herramienta de cara a los exÃ¡menes de Febrero y Junio de 2006. ValidaciÃ³n de la aplicaciÃ³n.}
+%\cventry{2006}{Proyecto Fin de Carrera}{SISTEMA AUTOMATIZADO DE GESTIÃN Y MANIPULACIÃN DE EXÃMENES TIPO TEST UTILIZANDO TECNOLOGÃAS ASP .NET}{IngenierÃ­a TÃ©cnica en InformÃ¡tica de Sistemas}{CalificaciÃ³n obtenida: MatrÃ­cula de Honor}{RealizaciÃ³n de un complejo \normalsize{\bfseries Aula Virtual} en .NET, diferente al utilizado actualmente por la Universidad de Springfield. UtilizaciÃ³n por parte del Departamento de FÃ­sica Aplicada de la Universidad, que lo ha mostrado a diferentes universidades australianas.} \hfill{\itshape\color{see}\footnotesize{}Visite www.maquinafalsa.es/portalfisica}.
+
+\cventry{2016-2017}{La Salle University}{IT Management Office}{Software Analyst and Developer}{03/16/2016 to current}{Analysis and develoment of new Universidad La Salle University Management System modules using Java (JSP, Hibernate, Spring Core, Vaadin, Maven, among others), PostgreSQL, and web technologies. In charge of the implementation of Agile software development methodologies (SCRUM). SCRUM Master. Technical and end-user manual development of several pre-existing systems in use at the University. Tech support for University staff and general-use areas of the University. Network management and configuration.}
+\cventry{2015-2016}{Perurail S.A.}{Cerro Verde II}{Fatigue and GPS controller}{06/16/2015 to 03/09/2016}{User-side configuration and testing of GPS tracking system for fleet in charge of copper concentrates transportation. New La Joya Station - Cerro Verde (San José entrance) road mapping. Fatigue monitoring of truck drivers. Drivers' shift programming. Training management and control. Fuel, gas and water supply and demand control for La Joya Station. }
+\cventry{2013--2015}{Universidad Católica San Pablo}{Language Center}{English Teacher - English as a Foreign Language}{06/01/2013 to 02/27/2015}{English language teaching (basic, pre-intermediate, intermediate and advanced levels). English-to-Spanish and Spanish-to-English document translation.}
+\cventry{2012--2013}{FerrumData S.R.L.}{}{Internship}{08/28/2012 to 02/15/2013}{Software development using Microsoft tools and frameworks (.NET Framework, SQL Server, Silverlight, etc.). Software manuals and documentation translator (English-to-Spanish).}
+%\cventry{2012}{Datavista}{}{Desarrollo web}{Desde 13/07/2012 hasta 13/08/2012}{Rediseño y desarrollo correspondiente de un recopilador de medios digitales}
+%\cventry{2012--}{Freelance}{}{Traducción}{}{Traduccion de documentos de diversa i­ndole.}
+%\cventry{2012}{Universidad Católica San Pablo}{Centro de Idiomas}{Enseñanza del idioma inglés}{Desde 04/01/2012 hasta 31/01/2012}{Enseñanza del idioma inglés en nivel pre-intermedio.}
+%\cventry{2011--2012}{Instituto de Idiomas Extreme}{Front Office}{Asistencia académica y en oficina}{Desde 01/07/2011 hasta 31/01/2012}{Dictado de tutorías a alumnos, toma de evaluaciones de ubicación a alumnos ingresantes, toma de examenes finales y auxiliar. Preparación de material, asistencia en informes y caja.}
+
+\section{Technologies}
+%\cvcomputer{SO}{Gnu/Linux, Windows (XP, 7), UNIX}{Admin.}{Apache}
+%\cvcomputer{Ofimática}{Microsoft Office (Word, PowerPoint, Excel) y OpenOffice.}{Hardware}{Nivel intermedio.}
+\cvcomputer{Programming Languages}{Java, C/C++,.NET Framework, Javascript}{Java Frameworks and Tools}{JSP, Spring, Hibernate, Vaadin, Maven}
+\cvcomputer{DB}{PostgreSQL, SQL Server, Oracle}{Agile Methodologies}{SCRUM Master Certified \texttrademark}
+%\cvcomputer{Programación I.A.}{CLIPS, Scheme, Prolog.}{Scripting}{Bash Scripting, C-Shell, PHP básico.}
+\cvcomputer{Web}{HTML5, CSS, JavaScript, JSON, NodeJS, AngularJS}{Other}{Matlab, Scilab, \LaTeX}
+%\pagebreak{}
+
+\section{Diplomas, Workshops, Courses and Seminars}
+
+\cventry{2016}{Scrum Master Certified\texttrademark }{SCRUMstudy}{}{}{}
+\cventry{2016}{Scrum Master Certified\texttrademark Workshop}{RM Certifica}{Lima, Perú}{}{}
+\cventry{2014}{Youth Integral Leadership Diploma}{Universidad Católica San Pablo}{Arequipa, Perú}{}{}
+%\cventry{2014}{3rd Teacher Development Conference - ``Challenges and Opportunities for English Teaching and Learning''}{Instituto Cultural Peruano Norteamericano Cusco ICPNAC y SBS Librería Internacional}{Cusco, Perú}{}{}
+%\cventry{2013}{IV Seminario de Historia del Perú - ``En torno al origen hispánico: Mitos y verdades. Contribuciones actuales a la historia del Perú''}{Centro de Estudios Peruanos de la Universidad Católica San Pablo}{Arequipa, Perú}{}{}
+%\cventry{2013}{2nd Regional Meeting of English Teachers - ``Achievements and Challenges in English Language Teaching''}{I.E. Internacional Peruano Británico y SBS Librería Internacional}{Arequipa, Perú}{}{}
+%\cventry{2004}{Programa ``Liderazgo y Trabajo en Equipo''}{Centro Cultural Andahua}{Arequipa, Perú}{}{}
+\cventry{2012-2013}{Diploma in TEFL -- Teaching English as a Foreign Language and Applied Methodology}{Universidad Católica San Pablo Language Center}{Arequipa, Perú}{}{}
+
+%\section{Intereses}
+%\cvlistitem{Programación y Desarrollo Web}
+%\cvlistitem{Software Libre}
+%\cvlistitem{Computación Evolutiva}
+%\cvlistitem{Idiomas}
+%\cvlistitem{Historia}
+%\cvlistitem{Ciencias Sociales}
+
+\closesection{}
+%\pagebreak{}
+
+\section{Other Activities}
+\cventry{2015}{Delegate}{33rd Model OAS General Assembly for Universities of the Hemisphere}{24 - 26/03/2015}{Saint Kitts and Nevis}{Participation in the 33º Model OAS General Assembly (MOAS) as a member of Universidad Católica San Pablo delegation. Model held entirely in English.}
+\cventry{2014}{Translator and Interpreter}{32nd Modelo de la Asamblea General de la OEA para Universidades del Hemisferio}{22 al 25 de julio de 2014}{Arequipa, Perú}{Official Translator and Interpreter of the thirtieth-second MOEA - July 2014. Model held entirely in Spanish with participation of English-speaking countries delegates.}
+\cventry{2013--}{Alumnus}{AIESEC}{Perú}{Arequipa local committee}{AIESEC Alumnus.}
+%\cventry{2012}{Miembro}{Equipo de investigación conjunto de la Universidad Católica San Pablo con la Universidad de Bourgogne - Francia}{Desarrollador}{Desde 05/2012}{Desarrollo de aplicaciones hí­bridas web/multimedia.}.
+\cventry{2011-2013}{Local committee member}{AIESEC}{Perú}{Arequipa local committee}{Outgoing Exchange Area member (Global Professionals program).}
+\cventry{2010}{Participant}{ACM-ICPC 2010 Latin America Regional Contest}{}{}{Member of a participant team.}
+\cventry{2009}{Participant}{ACM-ICPC 2009 Latin America Regional Contest}{}{}{Member of a participant team, achieving third-place at regional level.}
+%\cventry{2009}{Colaborador}{Revista Muchapinta}{Primer número de la revista}{}{Colaborador en la sección de discos.}
+
+\section{Additional Information}
+%\cvlistitem{Escogido Proyecto Fin de Carrera de IngenierÃ­a InformÃ¡tica: diseño de una aplicacion para telÃ©fonos mÃ³viles y PDAs con el objetivo de maquetar diagramas UML.}
+\cvlistitem{A-1 driving licence.}
+
+
+%\section{Referencias}
+%\cventry{1}{Alfredo Alcázar Chirinos}{Coordinador Centro de Idiomas}{UCSP}{(+51)(54)605630 anexo 212}{aalcazar@ucsp.edu.pe}{}
+%\cventry{2}{Bruno Juárez}{Jefe de Desarrollo}{FerrumData}{(+51)(54)958951725}{bjjuarezsoft@gmail.com}
+
+\end{document}
